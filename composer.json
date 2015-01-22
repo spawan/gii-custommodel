@@ -1,0 +1,25 @@
+{
+    "name": "spawan/gii-custommodel",
+    "description": "Gii Model generator for Yii 2 Framework",
+    "keywords": ["yii2", "gii", "crud"],
+    "homepage": "https://github.com/spawan/gii-custommodel",
+    "type": "yii2-extension",
+    "version": "1.0.0",
+    "license": "",
+    "authors": [
+        {
+            "name": "Codiant",
+            "email": "user1@neuronsolutions.com",
+            "homepage": "http://www.neuronsolutions.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "codiant\\model\\": ""
+        }
+    },
+      
+    "require": {
+        "yiisoft/yii2-gii": "~2.0.1"
+    }
+}
