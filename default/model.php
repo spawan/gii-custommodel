@@ -20,6 +20,7 @@ namespace <?= $generator->ns ?>;
 use Yii;
 use <?= $generator->ns ?>\base\Base<?= $className ?>;
 use <?= $generator->ns ?>\query\<?= $className ?>Query;
+use yii\helpers\ArrayHelper;
 
  class <?= $className ?> extends Base<?= $className ?>
 {
