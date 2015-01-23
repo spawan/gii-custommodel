@@ -6,7 +6,7 @@
  */
 
 //namespace yii\gii\generators\model;
-namespace codiant\custommodel;
+namespace spawan\custommodel;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\db\Connection;
