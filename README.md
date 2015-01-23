@@ -10,9 +10,9 @@ $config['modules']['gii'] = [
         'class' => 'yii\gii\Module', 
          'generators' => [
             'model' => [
-               	 'class' => 'frontend\codiant\model\Generator',
+               	 'class' => 'spawan\custommodel\Generator',
 		'templates' => [   //setting for out templates
-                   			 'model' => '@frontend/codiant/model/default', 
+                   			 'model' => '@spawan/custommodel/default', 
                	            	             ]
                                 ]
                            ],
