@@ -14,7 +14,7 @@ namespace <?= $generator->ns ?>\query;
 use Yii;
 
 
-class <?= $className ?>Query extends yii\db\ActiveQuery
+class <?= $className ?>Query extends \yii\db\ActiveQuery
 {
    
 }
