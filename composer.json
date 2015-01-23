@@ -1,0 +1,32 @@
+{
+    "name": "spawan/yii2-custommodel",
+    "description": "The Custom model integration for the Yii framework",
+    "keywords": ["yii2", "model", "generator", "helper"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Aimagine",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Codiant",
+            "email": "pawans@neuronsolutions.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "codiant\\custommodel\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
