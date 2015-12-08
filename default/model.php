@@ -33,7 +33,7 @@ use yii\helpers\ArrayHelper;
         return ArrayHelper::merge(
             parent::rules(),
             [
-                    [],
+                    
                 ]);
        }
        
@@ -41,7 +41,7 @@ use yii\helpers\ArrayHelper;
         return ArrayHelper::merge(
             parent::attributeLabels(),
             [
-                    [],
+                    
                 ]);
        }
 }

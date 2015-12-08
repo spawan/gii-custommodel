@@ -318,7 +318,7 @@ class Generator extends \yii\gii\Generator
         $relations = [];
         foreach ($db->getSchema()->getTableSchemas($schemaName) as $table) {
             $tableName = $table->name;
-            $className = $this->generateClassName($tableName);
+            $className = "Base".$this->generateClassName($tableName);
             foreach ($table->foreignKeys as $refs) {
                 $refTable = $refs[0];
                 unset($refs[0]);
@@ -360,8 +360,8 @@ class Generator extends \yii\gii\Generator
             }
             $table0 = $fks[$table->primaryKey[0]][0];
             $table1 = $fks[$table->primaryKey[1]][0];
-            $className0 = $this->generateClassName($table0);
-            $className1 = $this->generateClassName($table1);
+            $className0 = "Base".$this->generateClassName($table0);
+            $className1 = "Base".$this->generateClassName($table1);
 
             $link = $this->generateRelationLink([$fks[$table->primaryKey[1]][1] => $table->primaryKey[1]]);
             $viaLink = $this->generateRelationLink([$table->primaryKey[0] => $fks[$table->primaryKey[0]][1]]);
